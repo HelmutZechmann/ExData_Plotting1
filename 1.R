@@ -12,7 +12,7 @@ library(lubridate)
 d$DateTime <- dmy_hms(paste(d$Date, d$Time))
 
 # open png output
-png(filename = "plot1.png", width = 504, height = 504, units ="px")
+png(filename = "plot1.png", width = 504, height = 504, units ="px", bg = "transparent")
 
 # plot histogram
 hist(

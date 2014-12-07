@@ -10,7 +10,7 @@ d$DateTime <- dmy_hms(paste(d$Date, d$Time))
 
 
 # open png output
-png(filename = "plot2.png", width = 504, height = 504, units ="px")
+png(filename = "plot2.png", width = 504, height = 504, units ="px", bg = "transparent")
 
 # plot data
 plot(
